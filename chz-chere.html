@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chez & Cheri | Premium Restaurant</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial;background:#0f0f0f;color:#fff}
+header{background:#000;padding:10px 20px;border-bottom:3px solid #d4af37;position:sticky;top:0;z-index:1000}
+.header-container{display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto}
+.logo img{height:60px;vertical-align:middle}
+nav a{color:#fff;text-decoration:none;margin:0 12px;font-weight:bold}
+nav a:hover{color:#d4af37}
+.hero{padding:90px 20px;text-align:center;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('https://images.unsplash.com/photo-1513104890138-7c749659a591') center/cover}
+.btn{background:#d4af37;color:#000;padding:12px 20px;text-decoration:none;border-radius:8px;font-weight:bold;display:inline-block;margin-top:10px}
+.btn:hover{background:#fff}
+section{padding:40px 20px;max-width:1200px;margin:0 auto}
+h2{color:#d4af37;text-align:center;font-size:28px;margin-bottom:30px;border-bottom:2px solid #d4af37;padding-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px}
+.card{background:#1c1c1c;padding:20px;border-radius:10px;border:1px solid #333}
+.card h3{color:#d4af37;margin-top:0;border-bottom:1px solid #d4af37;padding-bottom:5px;font-size:20px}
+ul{padding-left:0;list-style-type:none}
+li{margin-bottom:10px;font-size:15px;display:flex;justify-content:space-between;border-bottom:1px dashed #333;padding-bottom:4px}
+.price{color:#d4af37;font-weight:bold}
+.pizza-table{width:100%;border-collapse:collapse;margin-bottom:15px;font-size:13px}
+.pizza-table th{color:#d4af37;text-align:left;border-bottom:1px solid #44px;padding:4px}
+.pizza-table td{padding:6px 4px;border-bottom:1px dashed #333}
+.pizza-title{font-weight:bold;color:#fff;font-size:14px}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;color:#fff;text-decoration:none;padding:14px 18px;border-radius:30px;font-weight:bold;box-shadow:0 4px 10px rgba(0,0,0,0.5);z-index:1000}
+footer{background:#000;padding:20px;text-align:center;border-top:1px solid #333;margin-top:40px}
+</style>
+</head>
+<body>
+
+<header>
+<div class="header-container">
+<div class="logo"><a href="#"><img src="215877.jpg" alt="Chez & Cheri Logo"></a></div>
+<nav>
+<a href="#deals">Deals</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<div class="hero">
+<h1>Quality You Can Trust</h1>
+<p>Pizza • Burgers • Shawarma • Pasta • Brost • Sandwich</p>
+<p><a class="btn" href="https://wa.me/923009091172">Order on WhatsApp</a></p>
+</div>
+
+<section id="deals">
+<h2>Special Deals</h2>
+<div class="grid">
+<div class="card"><strong>Deal 1 – Rs.2200</strong><br>1 Large Pizza + 12 Pcs Wings + 1500ml Bottle</div>
+<div class="card"><strong>Deal 2 – Rs.1600</strong><br>1 Medium Pizza + 06 Pcs Wings + 01 Litter Bottle</div>
+<div class="card"><strong>Deal 3 – Rs.1000</strong><br>1 Small Pizza + 06 Pcs Wings + 0.5 Litter Bottle</div>
+<div class="card"><strong>Deal 4 – Rs.1100</strong><br>2 Zinger Burgers + 01 Regular Fries + 01 Half Litter Bottle</div>
+</div>
+</section>
+
+<section id="menu">
+<h2>Full Menu With Prices</h2>
+<div class="grid">
+
+<!-- 1. Special Pizza -->
+<div class="card">
+<h3>Special Pizza</h3>
+<table class="pizza-table">
+<tr><th>Flavours</th><th>Small 7"</th><th>Medium 11"</th><th>Large 13"</th></tr>
+<tr><td class="pizza-title">Chez & Cheri Pizza</td><td>Rs. 650</td><td>Rs. 1400</td><td>Rs. 1650</td></tr>
+<tr><td class="pizza-title">Seekh Kabab Pizza</td><td>Rs. 650</td><td>Rs. 1400</td><td>Rs. 1650</td></tr>
+<tr><td class="pizza-title">Malai Boti Pizza</td><td>Rs. 650</td><td>Rs. 1400</td><td>Rs. 1650</td></tr>
+<tr><td class="pizza-title">Crown Crust Pizza</td><td>Rs. 650</td><td>Rs. 1400</td><td>Rs. 1650</td></tr>
+<tr><td class="pizza-title">Special Chicken Supreme</td><td>Rs. 650</td><td>Rs. 1350</td><td>Rs. 1600</td></tr>
+<tr><td class="pizza-title">Thin Crust Pizza</td><td>Rs. 750</td><td>Rs. 1450</td><td>Rs. 1800</td></tr>
+<tr><td class="pizza-title">Lazania Pizza</td><td>Rs. 650</td><td>Rs. 1400</td><td>Rs. 1650</td></tr>
+</table>
+</div>
+
+<!-- 2. Stuffer Pizza -->
+<div class="card">
+<h3>Stuffer Pizza</h3>
+<table class="pizza-table">
+<tr><th>Flavours</th><th>Small 7"</th><th>Medium 11"</th><th>Large 13"</th></tr>
+<tr><td class="pizza-title">Chicken Stuffer Pizza</td><td>Rs. 750</td><td>Rs. 1500</td><td>Rs. 1900</td></tr>
+<tr><td class="pizza-title">Chicken Cheese Stuffer</td><td>Rs. 830</td><td>Rs. 1500</td><td>Rs. 1850</td></tr>
+<tr><td class="pizza-title">Kabab Stuffer Pizza</td><td>Rs. 850</td><td>Rs. 1550</td><td>Rs. 1870</td></tr>
+<tr><td class="pizza-title">Malai Boti Kabab Stuffer</td><td>Rs. 870</td><td>Rs. 1580</td><td>Rs. 1920</td></tr>
+<tr><td class="pizza-title">Dep Dish</td><td>Rs. 880</td><td>Rs. 1650</td><td>Rs. 2000</td></tr>
+<tr><td class="pizza-title">Double Dough</td><td>-</td><td>Rs. 1650</td><td>Rs. 2000</td></tr>
+</table>
+</div>
+
+<!-- 3. Regular Pizzas -->
+<div class="card">
+<h3>Pizzas</h3>
+<table class="pizza-table">
+<tr><th>Flavours</th><th>Small 7"</th><th>Medium 11"</th><th>Large 13"</th></tr>
+<tr><td class="pizza-title">Chicken Tikkha</td><td>Rs. 600</td><td>Rs. 1200</td><td>Rs. 1450</td></tr>
+<tr><td class="pizza-title">Chicken Fajita</td><td>Rs. 600</td><td>Rs. 1200</td><td>Rs. 1450</td></tr>
+<tr><td class="pizza-title">Hot & Spicy</td><td>Rs. 600</td><td>Rs. 1200</td><td>Rs. 1450</td></tr>
+<tr><td class="pizza-title">Vaggi Lover</td><td>Rs. 600</td><td>Rs. 1200</td><td>Rs. 1450</td></tr>
+<tr><td class="pizza-title">Cheese Lover</td><td>Rs. 600</td><td>Rs. 1200</td><td>Rs. 1450</td></tr>
+</table>
+</div>
+
+<!-- 4. Burgers -->
+<div class="card">
+<h3>Burgers</h3>
+<ul>
+<li><span>1. Double Maza Burger</span><span class="price">Rs. 450</span></li>
+<li><span>2. Zinger Burger</span><span class="price">Rs. 450</span></li>
+<li><span>3. Reggy Burger</span><span class="price">Rs. 280</span></li>
+<li><span>4. Crunch Burger</span><span class="price">Rs. 400</span></li>
+<li><span>5. Chapli Petti Burger</span><span class="price">Rs. 340</span></li>
+<li><span>6. Zinger Tower Burger</span><span class="price">Rs. 650</span></li>
+<li><span>7. Fish Burger</span><span class="price">Rs. ----</span></li>
+<li><span>8. Thunder Fillet Burger</span><span class="price">Rs. 430</span></li>
+</ul>
+</div>
+
+<!-- 5. Roll Sticks & Hot Fried -->
+<div class="card">
+<h3>Roll Sticks & Fried Items</h3>
+<ul>
+<li style="color:#d4af37; font-weight:bold; border:none; margin-top:5px;">[Roll Sticks]</li>
+<li><span>1. Spin Roll</span><span class="price">Rs. 630</span></li>
+<li><span>2. Cheese Stick</span><span class="price">Rs. 650</span></li>
+<li><span>3. Chicken Donner</span><span class="price">Rs. 700</span></li>
+<li style="color:#d4af37; font-weight:bold; border:none; margin-top:15px;">[Hot Fried]</li>
+<li><span>1. Hot Wings (6P)</span><span class="price">Rs. 330</span></li>
+<li><span>2. Hot Wings (12P)</span><span class="price">Rs. 630</span></li>
+<li><span>3. Nuggets (6P)</span><span class="price">Rs. 300</span></li>
+<li><span>4. Nuggets (12P)</span><span class="price">Rs. 580</span></li>
+<li><span>5. Oven Baked Wings (6P)</span><span class="price">Rs. 350</span></li>
+<li><span>6. Oven Baked Wings (12P)</span><span class="price">Rs. 650</span></li>
+</ul>
+</div>
+
+<!-- 6. Fries -->
+<div class="card">
+<h3>Fries</h3>
+<ul>
+<li><span>1. Regular Fries</span><span class="price">Rs. 200</span></li>
+<li><span>2. Large Fries</span><span class="price">Rs. 250</span></li>
+<li><span>3. Family Fries</span><span class="price">Rs. 350</span></li>
+<li><span>4. Loaded Chez & Chicken Fries Half</span><span class="price">Rs. 400</span></li>
+<li><span>5. Loaded Chez & Chicken Fries Full</span><span class="price">Rs. 600</span></li>
+</ul>
+</div>
+
+<!-- 7. Shawarma & Pratha Roll -->
+<div class="card">
+<h3>Shawarma & Pratha Roll</h3>
+<ul>
+<li style="color:#d4af37; font-weight:bold; border:none;">[Shawarma]</li>
+<li><span>1. Chicken Shawarma</span><span class="price">Rs. 250</span></li>
+<li><span>2. Zinger Shawarma</span><span class="price">Rs. 280</span></li>
+<li><span>3. Mali Boti Shawarma</span><span class="price">Rs. 300</span></li>
+<li><span>4. Seekh Kabab Shawarma</span><span class="price">Rs. 260</span></li>
+<li style="color:#d4af37; font-weight:bold; border:none; margin-top:15px;">[Pratha Roll]</li>
+<li><span>1. Chicken Pratha Roll</span><span class="price">Rs. 270</span></li>
+<li><span>2. Zinger Pratha Roll</span><span class="price">Rs. 300</span></li>
+<li><span>3. Mali Boti Pratha Roll</span><span class="price">Rs. 330</span></li>
+<li><span>4. Seekh Kabab Pratha Roll</span><span class="price">Rs. 280</span></li>
+</ul>
+</div>
+
+<!-- 8. Wrap & Sandwich -->
+<div class="card">
+<h3>Wrap & Sandwich</h3>
+<ul>
+<li style="color:#d4af37; font-weight:bold; border:none;">[Wrap]</li>
+<li><span>1. Chicken Wrap</span><span class="price">Rs. 330</span></li>
+<li><span>2. Zinger Chicken Wrap</span><span class="price">Rs. 350</span></li>
+<li><span>3. Chese & Cheri Wrap</span><span class="price">Rs. 600</span></li>
+<li style="color:#d4af37; font-weight:bold; border:none; margin-top:15px;">[Sandwich]</li>
+<li><span>1. Chicken Sandwich</span><span class="price">Rs. 400</span></li>
+<li><span>2. Club Sandwich</span><span class="price">Rs. 450</span></li>
+<li><span>3. Chese Sandwich</span><span class="price">Rs. 550</span></li>
+<li><span>4. Maxican Sandwich</span><span class="price">Rs. 730</span></li>
+</ul>
+</div>
+
+<!-- 9. Pasta & Soft Drinks -->
+<div class="card">
+<h3>Pasta & Soft Drinks</h3>
+<ul>
+<li style="color:#d4af37; font-weight:bold; border:none;">[Pasta]</li>
+<li><span>1. Chez & Cheri Pasta</span><span class="price">Rs. 750</span></li>
+<li><span>2. Chicken Alfredo Pasta</span><span class="price">Rs. 750</span></li>
+<li><span>3. Mini Pasta</span><span class="price">Rs. 450</span></li>
+<li style="color:#d4af37; font-weight:bold; border:none; margin-top:15px;">[Soft Drinks]</li>
+<li><span>1. Water 0.5 L</span><span class="price">Rs. 60</span></li>
+<li><span>2. Water 1.5 L</span><span class="price">Rs. 120</span></li>
+<li><span>3. Soft Drink 350ml</span><span class="price">Rs. 70</span></li>
+<li><span>4. Soft Drink 1 L</span><span class="price">Rs. 170</span></li>
+<li><span>5. Soft Drink 0.5 L</span><span class="price">Rs. 120</span></li>
+<li><span>6. Soft Drink 1.5 L</span><span class="price">Rs. 220</span></li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact & Location</h2>
+<div style="text-align: center;">
+<p>📞 0300-9091172</p>
+<p>📍 Near Church, Peer Agha Jan Road, Purana Chahoor Clock Tower, Sangla Hill</p>
+<p><a class="btn" href="https://maps.app.goo.gl/4Gx3cTjgXxMVEDiy5" target="_blank">Open Google Maps</a></p>
+</div>
+</section>
+
+<footer>© Chez & Cheri Restaurant - Sangla Hill</footer>
+<a class="whatsapp" href="https://wa.me/923009091172" target="_blank">WhatsApp</a>
+
+</body>
+</html>
